@@ -4,7 +4,7 @@ import edu.IFNTUNG.theInternet.application.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginInvalName extends BaseTest{
+public class LoginInvalNameTest extends BaseTest{
     private static String ERROR_MESSAGE = "Your username is invalid!";
     @Test
     public void LoginInvalTest(){

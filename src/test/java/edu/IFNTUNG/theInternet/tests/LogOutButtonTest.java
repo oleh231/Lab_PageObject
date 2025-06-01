@@ -4,7 +4,7 @@ import edu.IFNTUNG.theInternet.application.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LogOutButton extends BaseTest{
+public class LogOutButtonTest extends BaseTest{
     private static String SUCCESS_MESSAGE = "You logged out of the secure area!";
     @Test
     public void LogOutTest(){
